@@ -158,7 +158,7 @@
 <main>
 	<h1>{name}</h1>
 	<p class="subtitle">Technologies: Javascript + some Svelte. Using DOM (no canvas).</p>
-	<p class="signature"><a href="https://github.com/llagerlof">GitHub</a> | Author: Lawrence Lagerlof</p>
+	<p class="signature"><a href="https://github.com/llagerlof/game-of-life-dom">GitHub</a> | Author: Lawrence Lagerlof</p>
 
 	<p>Grid width: {grid_config.width} | Grid height: {grid_config.height}</p>
 
