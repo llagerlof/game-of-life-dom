@@ -107,7 +107,7 @@
 			}
 		}
 
-		updateTable(table) {
+		updateTable() {
 			for (let l = 0; l < this.height; l++) {
 				for (let c = 0; c < this.width; c++) {
 					let cell = this.getCell(c, l);
@@ -122,16 +122,16 @@
 
 	function advanceGeneration() {
 		world.nextGen();
-		world.updateTable(document.getElementById('table'));
+		world.updateTable();
 	}
 
 	function toggleCell(event) {
 		world.toggleCell(event.target.id);
-		world.updateTable(document.getElementById('table'));
+		world.updateTable();
 	}
 
 	onMount(async () => {
-		world.updateTable(document.getElementById('grid'));
+		world.updateTable();
 	});
 
 	// World definition
